@@ -4,7 +4,7 @@
 #include "header.hpp"
 #include <random>
 #include <sstream>
-
+#include <chrono>
 char* Experiment::initArray()
 {
   std::random_device rd;
