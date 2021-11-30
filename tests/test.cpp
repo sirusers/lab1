@@ -1,4 +1,4 @@
-// Copyright 2021 Your Name <your_email>
+// Copyright 2021 Sergey agamesok@gmail.ru
 
 #include <gtest/gtest.h>
 

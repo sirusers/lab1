@@ -1,6 +1,5 @@
-//
-// Created by Macbook on 27.11.2021.
-//
+// Copyright 2021 Sergey agamesok@gmail.ru
+
 #include "EType.h"
 
 #include <sstream>

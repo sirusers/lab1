@@ -1,3 +1,5 @@
+// Copyright 2021 Sergey agamesok@gmail.ru
+
 #include "Investigation.h"
 #include "Experiment.h"
 int main() {

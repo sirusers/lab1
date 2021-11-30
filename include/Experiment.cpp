@@ -1,3 +1,5 @@
+// Copyright 2021 Sergey agamesok@gmail.ru
+
 #include "Experiment.h"
 #include "header.hpp"
 #include <random>
