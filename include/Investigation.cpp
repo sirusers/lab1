@@ -14,7 +14,7 @@ Investigation::Investigation(EType t, std::vector<int64_t>& sizes) {
 }
 void Investigation::print(std::ostream& os) {
   os<< "investigation\n\ttravel_variant: " << to_string(type) << std::endl;
-  for ( Experiment& experiment : experiments) {
+  for (Experiment& experiment : experiments) {
     os << "\texperiment:\n";
     experiment.print(os);
   }
