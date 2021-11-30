@@ -5,7 +5,7 @@ Investigation::Investigation(EType t, std::vector<int64_t>& sizes) {
   Investigation::type = t;
   int id = 0;
   for (int64_t i=log2(sizes[0]/2); pow(2, i)
-                                       < 3*sizes[sizes.size()-1]/2; i++){
+                                       < 3*sizes[sizes.size()-1]/2; i++) {
     id++;
     Experiment e(id, type, pow(2, i));
     e.run();
