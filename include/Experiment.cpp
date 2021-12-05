@@ -34,7 +34,8 @@ double Experiment::run() {
   switch (Experiment::type)
   {
     case ::forward:
-      for (int j = 0; j < 1000; j++) _forward(arr, k);
+      for (int j = 0; j < 1000; j++)
+        _forward(arr, k);
       break;
     case ::reverse:
       for (int j = 0; j < 1000; j++)
